@@ -251,7 +251,7 @@ def BorrarContacto(agenda):
             finbuscar = True
 
 def Main():
-    agenda = Agenda(r"C:\Users\mjcd1\OneDrive\Escritorio\agenda.txt")
+    agenda = Agenda(#Path)
     agenda.CargarContactos()
     fin = False
     while not(fin):
